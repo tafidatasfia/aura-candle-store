@@ -15,3 +15,13 @@
     --color-cream: #FFF9EF;
     --color-border: #D8CEC1;
 }
+
+
+/* ----------------- RESET --------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
