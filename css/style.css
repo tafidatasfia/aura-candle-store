@@ -1,0 +1,17 @@
+/* ============================== AURA - MAIN STYLES ============================ */
+
+/* --------------------------- COLOR VARIABLES ----------------------------- */
+
+:root {
+    --color-bg: #F5F1EA;
+    --color-bg-secondary: #EAE3D8;
+
+    --color-text: #29231F;
+    --color-text-light: #756B63;
+
+    --color-accent: #A8664F;
+    --color-glow: #D99A5B;
+
+    --color-cream: #FFF9EF;
+    --color-border: #D8CEC1;
+}
