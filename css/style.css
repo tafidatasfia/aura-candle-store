@@ -25,3 +25,10 @@
     box-sizing: border-box;
 }
 
+/* ------------- BODY -------------*/
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: Arial, sans-serif;
+}
