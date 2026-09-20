@@ -143,3 +143,35 @@ body {
     padding: 5rem;
     text-align: center;
 }
+
+.hero-eyebrow {
+    margin-bottom: 2rem;
+
+    color: var(--color-text-light);
+
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+}
+
+
+
+/* ---------- TITLE ---------- */
+
+.hero-title {
+    color: var(--color-text);
+
+    font-size: clamp(5rem, 13vw, 12rem);
+    font-weight: 500;
+
+    line-height: 0.78;
+    letter-spacing: -0.07em;
+}
+
+
+.hero-title span {
+    display: block;
+
+    margin-left: 12vw;
+
+    color: var(--color-accent);
+}
