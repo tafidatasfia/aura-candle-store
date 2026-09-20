@@ -175,3 +175,17 @@ body {
 
     color: var(--color-accent);
 }
+
+
+/* ---------- DESCRIPTION ---------- */
+
+.hero-description {
+    max-width: 320px;
+
+    margin: 3rem auto 2rem;
+
+    color: var(--color-text-light);
+
+    font-size: 1rem;
+    line-height: 1.6;
+}
