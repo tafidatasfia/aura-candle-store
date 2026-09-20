@@ -146,9 +146,7 @@ body {
 
 .hero-eyebrow {
     margin-bottom: 2rem;
-
     color: var(--color-text-light);
-
     font-size: 0.7rem;
     letter-spacing: 0.25em;
 }
@@ -159,10 +157,8 @@ body {
 
 .hero-title {
     color: var(--color-text);
-
     font-size: clamp(5rem, 13vw, 12rem);
     font-weight: 500;
-
     line-height: 0.78;
     letter-spacing: -0.07em;
 }
@@ -188,4 +184,39 @@ body {
 
     font-size: 1rem;
     line-height: 1.6;
+}
+
+
+
+/* ---------- BUTTON ---------- */
+
+.hero-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 1rem 1.5rem;
+
+    background-color: var(--color-text);
+    color: var(--color-cream);
+
+    text-decoration: none;
+
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+     transition:
+        transform 0.3s ease,
+        background-color 0.3s ease;
+}
+
+
+.hero-button:hover {
+    transform: translateY(-4px);
+
+    background-color: var(--color-accent);
+}
+
+
+.hero-button span {
+    font-size: 1rem;
 }
