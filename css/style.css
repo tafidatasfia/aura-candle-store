@@ -32,3 +32,89 @@ body {
     color: var(--color-text);
     font-family: Arial, sans-serif;
 }
+
+
+/* ======================NAVIGATION===================*/
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    padding: 0 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*----------------LOGO------------------*/
+
+.logo {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+}
+
+
+/*---------NAV LINKS------------*/
+
+.nav-links {
+    display: flex;
+    gap: 2.5rem;
+}
+
+. .nav-links a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: opacity 0.3s ease;
+}
+
+.nav-links a:hover {
+    opacity: 0.5;
+}
+
+
+/*---------------NAV ACTIONS----------------*/
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+/*--------------------BUTTONS------------------*/
+
+.nav-actions button {
+    border: none;
+    background: none;
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+/*-------------------WISHLIST------------------*/
+
+.wishlist-btn {
+    font-size: 1.5rem;
+    transition: 
+            transform 0.3s ease,
+            opacity 0.3s ease;
+}
+
+.wishlist-btn:hover {
+    transform: scale(1.15);
+    opacity: 0.6;
+}
+
+
+/*------------------CART------------------*/
+
+.cart-btn {
+    font-size: 0.9rem;
+}
+
+.cart-count {
+    margin-left: 0.25rem;
+    color: var(--color-accent);
+}
