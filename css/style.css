@@ -118,3 +118,28 @@ body {
     margin-left: 0.25rem;
     color: var(--color-accent);
 }
+
+
+
+
+/*============================HERO======================*/
+
+.hero {
+    position: relative;
+    min-height: calc(100vh - 90px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/*----------------HERO CONTENT--------------------*/
+
+.hero-content {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    max-width: 1200px;
+    padding: 5rem;
+    text-align: center;
+}
