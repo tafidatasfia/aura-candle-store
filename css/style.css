@@ -311,3 +311,22 @@ body {
     filter: blur(20px);
     pointer-events: none;
 }
+
+
+
+/* ---------- MOUSE GLOW ---------- */
+
+.mouse-glow {
+    position: fixed;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: radial-gradient(
+        circle,
+        rgba(217, 154, 91, 0.08),
+        transparent 70%
+    );
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 1;
+}
