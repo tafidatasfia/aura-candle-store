@@ -140,7 +140,7 @@ body {
     z-index: 5;
     width: 100%;
     max-width: 1200px;
-    padding: 3rem 2rem 12rem;
+    padding: 2rem 1rem 9rem;
     text-align: center;
 }
 
@@ -197,7 +197,7 @@ body {
 .accent-line {
     color: var(--color-accent);
 
-    margin-left: 0;
+    margin: 0;
 }
 
 
@@ -264,7 +264,7 @@ body {
    .hero-candle {
     position: absolute;
     left: 50%;
-    bottom: 40px;
+    bottom: 2px;
     transform: translateX(-50%);
     z-index: 2;
 }
