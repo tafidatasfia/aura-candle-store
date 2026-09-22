@@ -140,7 +140,7 @@ body {
     z-index: 5;
     width: 100%;
     max-width: 1200px;
-    padding: 5rem;
+    padding: 3rem 2rem 12rem;
     text-align: center;
 }
 
@@ -357,7 +357,7 @@ body {
     border-radius: 50%;
 }
 
-
+ 
 /* ---------- CANDLE GLOW ---------- */
 
 .candle-glow {
