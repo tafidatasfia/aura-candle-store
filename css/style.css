@@ -264,8 +264,8 @@ body {
    .hero-candle {
     position: absolute;
     left: 50%;
-    bottom: -30px;
-    transform: translateX(-50% ,0) scale(1);
+    bottom: 40px;
+    transform: translateX(-50%);
     z-index: 2;
 }
 
@@ -306,13 +306,9 @@ body {
 .flame {
     width: 38px;
     height: 58px;
-
     background: var(--color-glow);
-
     border-radius: 50% 50% 50% 50%;
-
     filter: blur(1px);
-
     animation: flicker 1.8s ease-in-out infinite;
 }
 /* ---------- FLAME WRAPPER ---------- */
@@ -323,8 +319,8 @@ body {
     width: 38px;
     height: 58px;
 
-    left: 50%;
-    top: -78px;
+    left: 65%;
+    top: -85px;
 
     transform: translateX(-50%);
 
@@ -340,7 +336,7 @@ body {
 
 .flame {
     width: 38px;
-    height: 58px;
+    height: 65px;
     background: var(--color-glow);
     border-radius: 50% 50% 50% 50%;
     filter: blur(1px);
@@ -352,8 +348,8 @@ body {
 
 .flame-inner {
     position: absolute;
-    width: 17px;
-    height: 30px;
+    width: 18px;
+    height: 35px;
     left: 50%;
     bottom: 6px;
     transform: translateX(-50%);
