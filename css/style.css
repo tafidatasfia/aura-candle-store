@@ -197,7 +197,7 @@ body {
 .accent-line {
     color: var(--color-accent);
 
-    margin-left: 12vw;
+    margin-left: 0;
 }
 
 
