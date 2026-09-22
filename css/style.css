@@ -366,3 +366,16 @@ body {
 .hero-button {
     animation-delay: 0.9s;
 }
+
+
+/* ---------- CANDLE ---------- */
+
+.hero-candle {
+    opacity: 0;
+    transform: translate(-50%, 50px) scale(0.9);
+
+    animation:
+        candleReveal 1.4s
+        cubic-bezier(0.22, 1, 0.36, 1)
+        0.5s forwards;
+}
