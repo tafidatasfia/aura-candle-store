@@ -454,3 +454,35 @@ body {
     }
 
 }
+
+
+
+
+/* =========================================
+   FLAME FLICKER
+   ========================================= */
+
+   .flame {
+    animation: flicker 1.8s ease-in-out infinite;
+}
+
+@keyframes flicker {
+    0% {
+        transform: translateX(-50%) rotate(-2deg) scale(1);
+    }
+
+    25% {
+        transform: translateX(-50%) rotate(2deg) scale(1.04, 0.96);
+    }
+
+    50% {
+        transform: translateX(-50%) rotate(-1deg) scale(0.97, 1.05);
+    }
+      75% {
+        transform: translateX(-50%) rotate(3deg) scale(1.03, 0.98);
+    }
+
+    100% {
+        transform: translateX(-50%) rotate(-2deg) scale(1);
+    }
+}
