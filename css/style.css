@@ -135,14 +135,7 @@ body {
 
 /*----------------HERO CONTENT--------------------*/
 
-.hero-content {
-    position: relative;
-    z-index: 5;
-    width: 100%;
-    max-width: 1200px;
-    padding: 2rem 1rem 9rem;
-    text-align: center;
-}
+
 
 .hero-eyebrow {
     margin-bottom: 2rem;
@@ -158,11 +151,13 @@ body {
 .hero-title {
     color: var(--color-text);
 
-    font-size: clamp(4rem, 10vw, 9rem);
+    font-size: clamp(5rem, 11vw, 10rem);
     font-weight: 500;
 
-    line-height: 0.82;
-    letter-spacing: -0.06em;
+    line-height: 0.8;
+    letter-spacing: -0.07em;
+    width: 100%;
+    text-align: center;
 }
 
 /* ---------- TITLE LINES ---------- */
@@ -193,12 +188,6 @@ body {
     animation-delay: 0.65s;
 }
 
-
-.accent-line {
-    color: var(--color-accent);
-
-    margin: 0;
-}
 
 
 @keyframes titleReveal {
