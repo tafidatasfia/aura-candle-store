@@ -157,12 +157,13 @@ body {
 
 .hero-title {
     color: var(--color-text);
+
     font-size: clamp(5rem, 13vw, 12rem);
     font-weight: 500;
+
     line-height: 0.78;
     letter-spacing: -0.07em;
 }
-
 
 .hero-title span {
     display: block;
