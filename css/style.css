@@ -165,12 +165,6 @@ body {
     letter-spacing: -0.07em;
 }
 
-.hero-title span {
-    display: block;
-    margin-left: 12vw;
-    color: var(--color-accent);
-}
-
 /* ---------- TITLE LINES ---------- */
 
 .title-line {
