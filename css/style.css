@@ -330,3 +330,39 @@ body {
     pointer-events: none;
     z-index: 1;
 }
+
+
+
+
+
+
+/* =========================================
+   HERO ENTRANCE ANIMATION
+   ========================================= */
+
+.hero-eyebrow,
+.hero-title,
+.hero-description,
+.hero-button {
+    opacity: 0;
+    transform: translateY(40px);
+    animation: heroReveal 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* ---------- ANIMATION DELAYS ---------- */
+
+.hero-eyebrow {
+    animation-delay: 0.2s;
+}
+
+.hero-title {
+    animation-delay: 0.4s;
+}
+
+.hero-description {
+    animation-delay: 0.7s;
+}
+
+.hero-button {
+    animation-delay: 0.9s;
+}
